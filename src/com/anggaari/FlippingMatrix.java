@@ -87,7 +87,6 @@ public class FlippingMatrix {
                 rowFlip.set(j, column.get(matrix.size() - 1 - k));
                 temp.set(k, rowFlip);
             }
-            System.out.println(temp);
 
             ArrayList<List<Integer>> beforeReverse = new ArrayList<>(temp);
             for (int i = 0; i < matrix.size(); i++) {
